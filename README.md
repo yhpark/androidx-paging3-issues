@@ -12,6 +12,7 @@ There are 3 issues demonstrated in this sample project. Set the `CurrentDemo` va
 
   <img src="https://github.com/yhpark/androidx-paging3-issues/blob/master/gifs/b.gif?raw=true" width="40%" height="40%" />
   
-- Issue C: jumpSupported
+- Issue C: jumpSupported.
+  To reproduce, scroll fast. Anchor position is negative or very large as if it's extrapolated (this might be an intended behavior?)
 
   <img src="https://github.com/yhpark/androidx-paging3-issues/blob/master/gifs/c.gif?raw=true" width="40%" height="40%" />
